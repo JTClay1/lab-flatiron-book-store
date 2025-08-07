@@ -49,7 +49,7 @@ const bookStoreTitle = document.getElementById("header");
 bookStoreTitle.textContent = bookStore.name;
 // replaces the header text with the name from the bookStore object
 
-const bookList = document.getElementById("bookList");
+const bookList = document.getElementById("book-list");
 // grabs the <ul> element where books will be listed
 
 for (const book of bookStore.books) {    
